@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "onchange -i '**' -- npm start --silent",
-    "lint-eslint": "eslint -c .eslintrc.js",
+    "lint-eslint": "eslint --config .eslintrc.js --format codeframe",
     "start": "npm run --silent lint-eslint"
   },
   "dependencies": {
