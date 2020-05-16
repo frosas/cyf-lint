@@ -25,7 +25,7 @@ module.exports = {
     "no-sequences": ["error"],
     "no-throw-literal": ["error"],
     "no-unmodified-loop-condition": ["error"],
-    "no-unused-expressions": ["error"],
+    "no-unused-expressions": ["warn"],
     "prefer-promise-reject-errors": ["error"],
     // TODO https://eslint.org/docs/rules/strict
     "array-bracket-newline": ["warn", "consistent"],
