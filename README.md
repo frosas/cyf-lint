@@ -6,8 +6,10 @@
 $ npx cyf-lint [--fix] <path>
 ```
 
-`--fix` fixes some of the errors automatically. Make sure to run it on a repo
-without pending changes.
+Rules are detailed in https://eslint.org/docs/rules/
+
+`--fix` fixes some of the failing rules automatically. Make sure to run it on a
+repo without uncommitted changes.
 
 ### Examples
 
