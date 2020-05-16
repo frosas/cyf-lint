@@ -51,6 +51,14 @@ $ npx cyf-lint .
   $ npm install -g cyf-lint@latest
   ```
 
+- _I get warnings on a piece of code I consider legitimate. What can I do?_
+
+  It may very well be a bug or that the rules are unfairly restrictive. In that
+  case, please [file an issue](https://github.com/frosas/cyf-lint/issues).
+
+  If it's more of an edge case and you would like to ignore that case especifically,
+  you can do that by [commenting your code](https://eslint.org/docs/user-guide/configuring#disabling-rules-with-inline-comments).
+
 ## Development
 
 ```bash
