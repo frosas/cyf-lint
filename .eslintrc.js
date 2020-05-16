@@ -52,7 +52,7 @@ module.exports = {
       { max: 40, skipBlankLines: true, skipComments: true },
     ],
     "max-params": ["warn"],
-    "max-statements-per-line": ["warn"],
+    "max-statements-per-line": ["warn", { max: 2 }],
     "no-lonely-if": ["warn"],
     "no-unneeded-ternary": ["error"],
     "no-whitespace-before-property": ["warn"],
