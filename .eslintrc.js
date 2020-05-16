@@ -63,7 +63,7 @@ module.exports = {
     "space-in-parens": ["warn"],
     "space-infix-ops": ["warn"],
     "space-unary-ops": ["warn"],
-    "no-shadow": ["error"],
+    "no-shadow": ["warn"],
     // TODO https://eslint.org/docs/rules/#stylistic-issues
     "no-var": ["error"],
     // TODO "prefer-template": ["warn"],
