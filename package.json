@@ -1,6 +1,6 @@
 {
   "name": "cyf-lint",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "bin": "./bin/cyf-lint",
   "scripts": {
     "dev": "onchange -i '**' -- ./bin/cyf-lint"
