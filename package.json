@@ -1,13 +1,14 @@
 {
-  "name": "app",
-  "version": "0.0.0",
-  "private": true,
+  "name": "cyf-lint",
+  "version": "0.1.0",
+  "bin": "./bin/cyf-lint",
   "scripts": {
     "dev": "onchange -i '**' -- npm start --silent",
     "lint-eslint": "eslint --config .eslintrc.js --format codeframe",
     "start": "npm run --silent lint-eslint"
   },
   "dependencies": {
-    "eslint": "^7.0.0"
+    "eslint": "^7.0.0",
+    "execa": "^4.0.1"
   }
 }
