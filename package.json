@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "onchange -i '**' -- npm start --silent",
+    "lint-eslint": "eslint -c .eslintrc.js",
+    "start": "npm run --silent lint-eslint"
+  },
+  "dependencies": {
+    "eslint": "^7.0.0"
+  }
+}
