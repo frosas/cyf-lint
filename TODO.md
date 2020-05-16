@@ -1,1 +1,3 @@
+- `tsc` + `checkJs`
 - Errors to link to the rules
+- Watch mode
