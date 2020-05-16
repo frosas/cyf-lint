@@ -3,6 +3,12 @@
 A simple tool to quickly [lint](<https://en.wikipedia.org/wiki/Lint_(software)>)
 your JavaScript code.
 
+Its main goal is to highlight those practices that, while technically correct,
+are generally discouraged:
+
+- Potential syntax and logic errors
+- Sloppy and unconventional coding style
+
 ## Usage
 
 ```bash
@@ -38,8 +44,22 @@ $ npx cyf-lint .
   $ npm install -g cyf-lint
   ```
 
+  Note in this case you won't be using the latest version automatically. To
+  ensure you are up to date, remember to update the package periodically:
+
+  ```bash
+  $ npm install -g cyf-lint@latest
+  ```
+
 ## Development
 
 ```bash
 $ npm run dev -- <path>
 ```
+
+## TODO
+
+- `tsc` + `checkJs`
+- Errors to link to the rules
+- Integrated watch mode
+- Integrate ESLint config with dev's editor
