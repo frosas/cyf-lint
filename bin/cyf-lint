@@ -1,5 +1,7 @@
 #!/usr/bin/env node --unhandled-rejections=strict
 
+/* eslint-env node */
+
 const execa = require("execa");
 
 (async () => {

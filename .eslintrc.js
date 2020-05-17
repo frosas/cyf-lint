@@ -1,10 +1,11 @@
+/* eslint-env node */
+
 module.exports = {
   plugins: ["unicorn"],
   extends: "eslint:recommended",
   env: {
     browser: true,
     es6: true,
-    node: true,
   },
   parserOptions: {
     ecmaVersion: 2020,
