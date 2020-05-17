@@ -3,12 +3,12 @@
 const execa = require("execa");
 
 (async () => {
-  const paths = process.argv.slice(2);
+  const args = process.argv.slice(2);
   const command =
     `npx eslint ` +
     `--config ${__dirname}/../src/eslint-config.js ` +
     `--format codeframe ` +
-    paths.join(" ");
+    args.join(" ");
   try {
     await execa(command, { stdio: "inherit", shell: true });
   } catch (_) {
