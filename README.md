@@ -79,4 +79,4 @@ $ npx onchange -i '**/*.js' '<cyf-lint-dir>/**/*.js' -- <cyf-lint-dir>/bin/cyf-l
 - `tsc` + `checkJs`
 - Errors to link to the rules
 - Integrated watch mode
-- Integrate ESLint config with dev's editor
+- Expose ESLint config
