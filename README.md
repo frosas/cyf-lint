@@ -12,7 +12,7 @@ are generally discouraged:
 ## Usage
 
 ```bash
-$ npx cyf-lint [--fix] <path>
+$ npx cyf-lint [--fix] <path> [<path> ...]
 ```
 
 You can find the details of any failing rule at https://eslint.org/docs/rules/
