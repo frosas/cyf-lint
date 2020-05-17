@@ -76,7 +76,7 @@ module.exports = {
     // https://github.com/sindresorhus/eslint-plugin-unicorn
     //
 
-    "unicorn/consistent-function-scoping": ["warn"],
+    // TODO "unicorn/consistent-function-scoping": ["warn"],
     // TODO https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
     // TODO "unicorn/no-for-loop": ["warn"],
     // TODO https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
