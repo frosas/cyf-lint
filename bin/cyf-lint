@@ -1,14 +1,12 @@
 #!/usr/bin/env node --unhandled-rejections=strict
 
-/* eslint-env node */
-
 const execa = require("execa");
 
 (async () => {
   const paths = process.argv.slice(2);
   const command =
     `npx eslint ` +
-    `--config ${__dirname}/../.eslintrc.js ` +
+    `--config ${__dirname}/../src/eslint-config.js ` +
     `--format codeframe ` +
     paths.join(" ");
   try {
