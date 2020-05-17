@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "bin": "./bin/cyf-lint",
   "scripts": {
-    "dev": "onchange -i '**' -- ./bin/cyf-lint"
+    "dev": "npx onchange -i '**/*.js' -- ./bin/cyf-lint ."
   },
   "dependencies": {
     "eslint": "^7.0.0",

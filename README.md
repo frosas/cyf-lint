@@ -61,8 +61,17 @@ $ npx cyf-lint .
 
 ## Development
 
+To apply the rules to the project itself:
+
 ```bash
-$ npm run dev -- <path>
+$ npm run dev
+```
+
+To apply the rules to other projects:
+
+```bash
+$ cd sample-project
+$ npx onchange -i '**/*.js' '<cyf-lint-dir>/**/*.js' -- <cyf-lint-dir>/bin/cyf-lint .
 ```
 
 ## TODO
