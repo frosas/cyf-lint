@@ -71,7 +71,7 @@ To apply the rules to other projects:
 
 ```bash
 $ cd sample-project
-$ npx onchange -i '**/*.js' '<cyf-lint-dir>/**/*.js' -- <cyf-lint-dir>/bin/cyf-lint .
+$ npx onchange -i '**/*.js' '<cyf-lint-dir>/**' -- <cyf-lint-dir>/bin/cyf-lint .
 ```
 
 ## TODO
