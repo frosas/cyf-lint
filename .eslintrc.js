@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["unicorn"],
   extends: "eslint:recommended",
   env: {
     browser: true,
@@ -9,6 +10,10 @@ module.exports = {
     ecmaVersion: 11,
   },
   rules: {
+    //
+    // https://eslint.org/docs/rules/
+    //
+
     "array-callback-return": ["error"],
     complexity: ["warn", { max: 5 }], // TODO Change max?
     "consistent-return": ["error"],
@@ -67,5 +72,14 @@ module.exports = {
     // TODO https://eslint.org/docs/rules/#stylistic-issues
     "no-var": ["error"],
     // TODO "prefer-template": ["warn"],
+
+    //
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    //
+
+    "unicorn/consistent-function-scoping": ["warn"],
+    // TODO https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-abusive-eslint-disable.md
+    // TODO "unicorn/no-for-loop": ["warn"],
+    // TODO https://github.com/sindresorhus/eslint-plugin-unicorn/blob/master/docs/rules/no-unused-properties.md
   },
 };
