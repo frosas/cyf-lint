@@ -25,7 +25,7 @@ module.exports = {
     // TODO https://eslint.org/docs/rules/no-magic-numbers?
     "no-multi-spaces": ["warn"],
     // TODO https://eslint.org/docs/rules/no-param-reassign?
-    // TODO "no-restricted-properties": ["error", { property: "innerHTML" }],
+    "no-restricted-properties": ["warn", { property: "innerHTML" }],
     "no-sequences": ["error"],
     "no-throw-literal": ["error"],
     "no-unmodified-loop-condition": ["error"],
